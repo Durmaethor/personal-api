@@ -1,3 +1,6 @@
+
+//user data
+
 const user = {
     name: 'Ryan Kramer',
     location: 'Pleasant Grove',
