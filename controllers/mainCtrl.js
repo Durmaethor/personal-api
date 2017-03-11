@@ -10,6 +10,11 @@ module.exports = {
   getLocation: function(req, res, next) {
     let location = user.location;
     res.json(location);
+  },
+
+  getOccupations: function(req, res, next) {
+    let occupations = user.occupations;
+    res.json(occupations);
   }
   
 };

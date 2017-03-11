@@ -16,5 +16,6 @@ app.use(middleware.addHeaders);
 //GETs
 app.get('/name', mainCtrl.getName);
 app.get('/location', mainCtrl.getLocation);
+app.get('/occupations', mainCtrl.getOccupations);
 
 app.listen(5000, () => console.log('listening on 5000'));
